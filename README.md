@@ -15,5 +15,6 @@ what this config uses:
 - While the leftmost thumb key is SUPER/GUI key by default, for me it brings
   back control (removed)
 - tapdance on middle left thumb key, to bring back SUPER/GUI key (single tap = LWT, double = GUI)
+- tapdance for RALT/LALT in the rightmost thumb key
 - On raised layer '~' moved from "SHIFT" key to "A" (as I want my SHIFTs to be
   consistent)
