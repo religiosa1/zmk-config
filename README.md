@@ -14,5 +14,6 @@ what this config uses:
   (I try to stick to correct left/right shift combinations)
 - While the leftmost thumb key is SUPER/GUI key by default, for me it brings
   back control (removed)
+- tapdance on middle left thumb key, to bring back SUPER/GUI key (single tap = LWT, double = GUI)
 - On raised layer '~' moved from "SHIFT" key to "A" (as I want my SHIFTs to be
   consistent)
