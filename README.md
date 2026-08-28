@@ -15,6 +15,9 @@ what this config uses:
 - While the leftmost thumb key is SUPER/GUI key by default, for me it brings
   back control (removed)
 - tapdance on middle left thumb key, to bring back SUPER/GUI key (single tap = LWT, double = GUI)
+- both middle thumbkeys simultaneously result in SUPER/GUI on lowered layer
 - tapdance for RALT/LALT in the rightmost thumb key
 - On raised layer '~' moved from "SHIFT" key to "A" (as I want my SHIFTs to be
   consistent)
+- hjkl row on raised layer is home/pgdn/pgup/end
+- BSPC on lowered layer is DEL
