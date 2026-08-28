@@ -9,6 +9,13 @@
 
 / {
     behaviors {
+      // mog-morph for RALT/LALT
+      malt: modmorph_alt {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp RALT>, <&kp LALT>;
+        mods = <(MOD_LGUI|MOD_LCTL|MOD_RGUI|MOD_RCTL)>;
+      };
       // tap dance on middle thumb key -- just hold it to raise the layer,
       // tap-hold for SUPER/GUI key
       td_ls: tap_dance_0 {
@@ -22,7 +29,7 @@
         compatible = "zmk,behavior-tap-dance";
         #binding-cells = <0>;
         tapping-term-ms = <300>;
-        bindings = <&kp RALT>, <&kp LALT>;
+        bindings = <&malt>, <&kp LALT>;
       };
     };
 
